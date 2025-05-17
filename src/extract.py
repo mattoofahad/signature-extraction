@@ -37,6 +37,6 @@ class SignatureExtractor:
 if __name__ == "__main__":
     app = SignatureExtractor()
     app.predict(
-        r"C:\Users\Fahad\Desktop\Projects_personal\signature-extraction\images\img1.jpg",
+        r"/content/signature-extraction/images/img1.jpg",
         "output_signature.png",
     )

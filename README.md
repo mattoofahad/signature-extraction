@@ -28,8 +28,8 @@ We divide our training data into two classes: `signatures` and `non-signature`. 
 ## Installation
 Clone the project and `cd` to project directory. Then, execute the following commands once to set-up your environment
 ```
-python3 -m venv venv/
-source venv/bin/activate
+conda create -n sig_env python=3.7 -y
+conda activate sig_env
 pip install -r requirements.txt
 ```
 

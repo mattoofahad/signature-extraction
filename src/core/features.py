@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from tqdm import tqdm
 
-from utils import list_images
+from ..utils import list_images
 from .preprocess import remove_lines, threshold
 
 

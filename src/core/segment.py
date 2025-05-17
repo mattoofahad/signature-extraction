@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 from tqdm import tqdm
 
-from utils import list_images
+from ..utils import list_images
 from .features import get_components
 
 

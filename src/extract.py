@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 from PIL import Image
 
-from core import extract_signature
+from .core import extract_signature
 
 
 class SignatureExtractor:
